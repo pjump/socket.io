@@ -13,16 +13,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Automattic/socket.io"
+    "url": "git@github:pjump/socket.io.git"
   },
   "scripts": {
     "test": "mocha --reporter dot --slow 200ms --bail"
   },
   "dependencies": {
-    "engine.io": "automattic/engine.io#ddc64a",
+    "engine.io": "pjump/engine.io",
     "socket.io-parser": "2.2.3",
-    "socket.io-client": "automattic/socket.io-client#210d65",
-    "socket.io-adapter": "automattic/socket.io-adapter#ae79d8",
+    "socket.io-client": "pjump/socket.io-client",
+    "socket.io-adapter": "pjump/socket.io-adapter#ae79d8",
     "has-binary": "0.1.6",
     "debug": "2.1.0"
   },
