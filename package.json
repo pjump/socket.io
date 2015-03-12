@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github:pjump/socket.io.git"
+    "url": "git+ssh://git@github:pjump/socket.io.git"
   },
   "scripts": {
     "test": "mocha --reporter dot --slow 200ms --bail"
